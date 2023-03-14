@@ -1,0 +1,15 @@
+C:\AP\Modulo_1\RoboTupiniquim\bin\Debug\net6.0\RoboTupiniquim.exe
+C:\AP\Modulo_1\RoboTupiniquim\bin\Debug\net6.0\RoboTupiniquim.deps.json
+C:\AP\Modulo_1\RoboTupiniquim\bin\Debug\net6.0\RoboTupiniquim.runtimeconfig.json
+C:\AP\Modulo_1\RoboTupiniquim\bin\Debug\net6.0\RoboTupiniquim.dll
+C:\AP\Modulo_1\RoboTupiniquim\bin\Debug\net6.0\RoboTupiniquim.pdb
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.csproj.AssemblyReference.cache
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.GeneratedMSBuildEditorConfig.editorconfig
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.AssemblyInfoInputs.cache
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.AssemblyInfo.cs
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.csproj.CoreCompileInputs.cache
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.dll
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\refint\RoboTupiniquim.dll
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.pdb
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\RoboTupiniquim.genruntimeconfig.cache
+C:\AP\Modulo_1\RoboTupiniquim\obj\Debug\net6.0\ref\RoboTupiniquim.dll
