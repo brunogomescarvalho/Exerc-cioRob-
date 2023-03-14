@@ -3,14 +3,19 @@ bool continuar = true;
 
 System.Console.WriteLine("--- Robô InterEspacial ---\n");
 
-System.Console.Write("Informe a posição inicial X do robô: ");
+System.Console.Write("Informe em número inteiro a posição inicial X do robô: ");
 int X = int.Parse(Console.ReadLine()!);
 
-System.Console.Write("Informe a posição inicial Y do robô: ");
+System.Console.Write("Informe em número inteiro a posição inicial Y do robô: ");
 int Y = int.Parse(Console.ReadLine()!);
 
-System.Console.Write("Informe a direção cardial do robô: ");
+System.Console.Write("Informe a direção cardial do robô: [ N , S , L , O  ]: ");
 char direcao = Convert.ToChar(Console.ReadLine()!.ToUpper());
+
+Console.Clear();
+System.Console.WriteLine("Para movimentar o robô digite uma ou mais coordenadas. Ex: MMMEEDD\n" +
+"Para avançar tecle M, para direita tecle D, para esquerda tecle E.\nTecle para iniciar.");
+Console.ReadKey();
 
 do
 {
