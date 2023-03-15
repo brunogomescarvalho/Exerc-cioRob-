@@ -28,28 +28,28 @@ namespace RoboTupiniquim
 
             do
             {
-                Console.Write("Informe em número inteiro a posição inicial X do robô 1: ");
-                robo1X = int.Parse(Console.ReadLine()!);
+                Console.Clear();
 
-                Console.Write("Informe em número inteiro a posição inicial Y do robô 1: ");
-                robo1Y = int.Parse(Console.ReadLine()!);
-
-                Console.Write("Informe a direção cardial do robô 1: [ N , S , L , O  ]: ");
-                robo1Direcao = Convert.ToChar(Console.ReadLine()!.ToUpper());
+                Console.Write("Informe em número inteiro a posição inicial [X Y D] do robô 1: ");
+                string roboUmStr = Console.ReadLine()!;
+                var roboUmSplit = roboUmStr.Split(" ");
+                robo1X = int.Parse(roboUmSplit[0]);
+                robo1Y = int.Parse(roboUmSplit[1]);
+                robo1Direcao = Convert.ToChar(roboUmSplit[3].ToUpper());
 
                 Console.Clear();
-                Console.Write("Informe em número inteiro a posição inicial X do robô 2: ");
-                robo2X = int.Parse(Console.ReadLine()!);
 
-                Console.Write("Informe em número inteiro a posição inicial Y do robô 2: ");
-                robo2Y = int.Parse(Console.ReadLine()!);
-
-                System.Console.Write("Informe a direção cardial do robô 2: [ N , S , L , O  ]: ");
-                robo2Direcao = Convert.ToChar(Console.ReadLine()!.ToUpper());
+                Console.Write("Informe em número inteiro a posição inicial [X Y D] do robô 2: ");
+                string roboDoisStr = Console.ReadLine()!;
+                var roboDoisSplit = roboDoisStr.Split(" ");
+                robo2X = int.Parse(roboDoisSplit[0]);
+                robo2Y = int.Parse(roboDoisSplit[1]);
+                robo2Direcao = Convert.ToChar(roboDoisSplit[3].ToUpper());
 
                 coordenadasValidas = VerificaCoordenadas(gridX, gridY, robo1X, robo1Y, robo2X, robo2Y);
                 if (!coordenadasValidas)
                 {
+                    Console.Clear();
                     Console.WriteLine($"Coordenadas fora do plano cartesiano do tamanho {plano}\n Tecle para continuar");
                     Console.ReadKey();
                     continue;
